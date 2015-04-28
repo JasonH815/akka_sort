@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="akka-sort"
+		module="akka-sort_2.11"
+		revision="1.0"
+		conf="echo-sigar"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, echo-trace-compile, echo-trace-test, echo-weave, echo-sigar"
+		date="20150311152513"/>
+	<dependencies>
+		<module organisation="com.typesafe.trace" name="echo-sigar-libs">
+			<revision name="0.1.14" status="release" pubdate="20150311003940" resolver="typesafe-releases" artresolver="typesafe-releases" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<metadata-artifact status="successful" details="" size="638" time="1156" location="C:\Users\Administrator\.ivy2\cache\com.typesafe.trace\echo-sigar-libs\ivy-0.1.14.xml" searched="true" original-local-location="C:\Users\Administrator\.ivy2\cache\com.typesafe.trace\echo-sigar-libs\ivy-0.1.14.xml.original" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/echo-sigar-libs/0.1.14/echo-sigar-libs-0.1.14.pom"/>
+				<caller organisation="akka-sort" name="akka-sort_2.11" conf="echo-sigar" rev="0.1.14" rev-constraint-default="0.1.14" rev-constraint-dynamic="0.1.14" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="echo-sigar-libs" type="jar" ext="jar" status="successful" details="" size="2099399" time="8954" location="C:\Users\Administrator\.ivy2\cache\com.typesafe.trace\echo-sigar-libs\jars\echo-sigar-libs-0.1.14.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/echo-sigar-libs/0.1.14/echo-sigar-libs-0.1.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

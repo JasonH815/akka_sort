@@ -1,0 +1,16 @@
+[error] C:\Users\Administrator\dev\play_projects\akka_sort\src\main\scala\com\example\ApplicationMain.scala:8: overloaded method value actorOf with alternatives:
+[error]   (props: akka.actor.Props,name: String)akka.actor.ActorRef <and>
+[error]   (props: akka.actor.Props)akka.actor.ActorRef
+[error]  cannot be applied to ()
+[error]   val inputActor = system.actorOf()
+[error]                           ^
+[error] C:\Users\Administrator\dev\play_projects\akka_sort\src\main\scala\com\example\ApplicationMain.scala:9: not found: value pingActor
+[error]   pingActor ! PingActor.Initialize
+[error]   ^
+[error] C:\Users\Administrator\dev\play_projects\akka_sort\src\main\scala\com\example\sorting\SortActor.scala:25: an expression of type Null is ineligible for implicit conversion
+[error]   var pivot:Int = null
+[error]                   ^
+[error] C:\Users\Administrator\dev\play_projects\akka_sort\src\main\scala\com\example\sorting\SortActor.scala:56: not found: type SortActorType
+[error]   case class Initialize(sortType: SortActorType)
+[error]                                   ^
+[error] four errors found

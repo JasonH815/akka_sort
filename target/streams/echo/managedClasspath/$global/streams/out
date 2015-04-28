@@ -1,0 +1,1 @@
+[info] echo-trace-akka jar for Inspect is on the echo:run classpath com.typesafe.trace:echo-trace-akka-2.3.9_2.11:0.1.14

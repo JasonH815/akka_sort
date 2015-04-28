@@ -1,0 +1,31 @@
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(C:\Users\Administrator\dev\play_projects\akka_sort\src\main\scala\com\example\input\GetValueActor.scala)
+[debug] Removed products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set(C:\Users\Administrator\dev\play_projects\akka_sort\src\main\scala\com\example\input\GetValueActor.scala)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated sources: Set(C:\Users\Administrator\dev\play_projects\akka_sort\src\main\scala\com\example\input\GetValueActor.scala)
+[info] Compiling 1 Scala source to C:\Users\Administrator\dev\play_projects\akka_sort\target\scala-2.11\classes...
+[debug] Getting compiler-interface from component compiler for Scala 2.11.5
+[debug] Getting compiler-interface from component compiler for Scala 2.11.5
+[debug] Running cached compiler 6665cdc, interfacing (CompilerInterface) with Scala compiler version 2.11.5
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-bootclasspath
+[debug] 	C:\Progra~1\Java\jdk1.8.0_31\jre\lib\resources.jar;C:\Progra~1\Java\jdk1.8.0_31\jre\lib\rt.jar;C:\Progra~1\Java\jdk1.8.0_31\jre\lib\sunrsasign.jar;C:\Progra~1\Java\jdk1.8.0_31\jre\lib\jsse.jar;C:\Progra~1\Java\jdk1.8.0_31\jre\lib\jce.jar;C:\Progra~1\Java\jdk1.8.0_31\jre\lib\charsets.jar;C:\Progra~1\Java\jdk1.8.0_31\jre\lib\jfr.jar;C:\Progra~1\Java\jdk1.8.0_31\jre\classes;C:\Users\Administrator\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.5.jar
+[debug] 	-classpath
+[debug] 	C:\Users\Administrator\dev\play_projects\akka_sort\target\scala-2.11\classes;C:\Users\Administrator\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.9.jar;C:\Users\Administrator\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar
+[debug] Scala compilation took 0.895953233 s
+[debug] New invalidations:
+[debug] 	Set()
+[debug] Initial set of included nodes: Set()
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] 	Set()
+[debug] All newly invalidated sources after taking into account (previously) recompiled sources:Set()
